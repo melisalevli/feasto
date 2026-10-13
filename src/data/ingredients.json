@@ -1,0 +1,1559 @@
+[
+  {
+    "id": "chicken",
+    "name": "Chicken",
+    "emoji": "🍗",
+    "cat": "meat",
+    "aliases": [
+      "chicken breast",
+      "chicken drumsticks",
+      "chicken legs",
+      "chicken thigh",
+      "chicken wings"
+    ],
+    "name_tr": "Tavuk"
+  },
+  {
+    "id": "beef",
+    "name": "Beef",
+    "emoji": "🥩",
+    "cat": "meat",
+    "aliases": [
+      "beef brisket",
+      "beef fillet",
+      "beef shin",
+      "flank steak",
+      "ground beef",
+      "mince",
+      "minced beef",
+      "sirloin steak",
+      "steak"
+    ],
+    "name_tr": "Sığır eti"
+  },
+  {
+    "id": "pork",
+    "name": "Pork",
+    "emoji": "🐖",
+    "cat": "meat",
+    "aliases": [
+      "ground pork",
+      "pork back ribs",
+      "pork belly",
+      "pork belly slices",
+      "pork chop",
+      "pork shoulder"
+    ],
+    "name_tr": "Domuz eti"
+  },
+  {
+    "id": "bacon",
+    "name": "Bacon",
+    "emoji": "🥓",
+    "cat": "meat",
+    "name_tr": "Pastırma"
+  },
+  {
+    "id": "sausage",
+    "name": "Sausage",
+    "emoji": "🌭",
+    "cat": "meat",
+    "aliases": [
+      "italian fennel sausages",
+      "sausages"
+    ],
+    "name_tr": "Sosis"
+  },
+  {
+    "id": "salmon",
+    "name": "Salmon",
+    "emoji": "🐟",
+    "cat": "fish",
+    "name_tr": "Somon"
+  },
+  {
+    "id": "tuna",
+    "name": "Tuna",
+    "emoji": "🐟",
+    "cat": "fish",
+    "aliases": [
+      "canned tuna"
+    ],
+    "name_tr": "Tuna"
+  },
+  {
+    "id": "shrimp",
+    "name": "Shrimp",
+    "emoji": "🍤",
+    "cat": "fish",
+    "aliases": [
+      "king prawns",
+      "prawn",
+      "prawns",
+      "raw king prawns",
+      "raw tiger prawns",
+      "tiger prawns"
+    ],
+    "name_tr": "Karides"
+  },
+  {
+    "id": "egg",
+    "name": "Egg",
+    "emoji": "🥚",
+    "cat": "egg",
+    "aliases": [
+      "egg white",
+      "egg yolk",
+      "eggs",
+      "free-range egg",
+      "free-range egg beaten",
+      "free-range eggs beaten"
+    ],
+    "name_tr": "Yumurta"
+  },
+  {
+    "id": "tofu",
+    "name": "Tofu",
+    "emoji": "⬜",
+    "cat": "legume",
+    "name_tr": "Tofu"
+  },
+  {
+    "id": "milk",
+    "name": "Milk",
+    "emoji": "🥛",
+    "cat": "dairy",
+    "name_tr": "Süt"
+  },
+  {
+    "id": "butter",
+    "name": "Butter",
+    "emoji": "🧈",
+    "cat": "dairy",
+    "aliases": [
+      "melted butter",
+      "salted butter",
+      "unsalted butter"
+    ],
+    "name_tr": "Tereyağı"
+  },
+  {
+    "id": "cheese",
+    "name": "Cheese",
+    "emoji": "🧀",
+    "cat": "dairy",
+    "aliases": [
+      "cheddar",
+      "cheddar cheese",
+      "kashar",
+      "shredded cheese"
+    ],
+    "name_tr": "Peynir"
+  },
+  {
+    "id": "parmesan",
+    "name": "Parmesan",
+    "emoji": "🧀",
+    "cat": "dairy",
+    "aliases": [
+      "parmesan cheese",
+      "parmigiano"
+    ],
+    "name_tr": "Parmesan"
+  },
+  {
+    "id": "mozzarella",
+    "name": "Mozzarella",
+    "emoji": "🧀",
+    "cat": "dairy",
+    "name_tr": "Mozzarella"
+  },
+  {
+    "id": "feta",
+    "name": "Feta",
+    "emoji": "🧀",
+    "cat": "dairy",
+    "aliases": [
+      "white cheese"
+    ],
+    "name_tr": "Beyaz peynir"
+  },
+  {
+    "id": "yogurt",
+    "name": "Yogurt",
+    "emoji": "🥛",
+    "cat": "dairy",
+    "aliases": [
+      "greek yoghurt",
+      "greek yogurt",
+      "natural yoghurt",
+      "natural yogurt",
+      "yoghurt"
+    ],
+    "name_tr": "Yoğurt"
+  },
+  {
+    "id": "cream",
+    "name": "Cream",
+    "emoji": "🥛",
+    "cat": "dairy",
+    "aliases": [
+      "double cream",
+      "heavy cream",
+      "single cream",
+      "whipping cream"
+    ],
+    "name_tr": "Krema"
+  },
+  {
+    "id": "tomato",
+    "name": "Tomato",
+    "emoji": "🍅",
+    "cat": "veg",
+    "aliases": [
+      "cherry tomato",
+      "plum tomato",
+      "tomatoes"
+    ],
+    "name_tr": "Domates"
+  },
+  {
+    "id": "canned_tomatoes",
+    "name": "Canned tomatoes",
+    "emoji": "🥫",
+    "cat": "veg",
+    "aliases": [
+      "chopped tomatoes",
+      "passata",
+      "pepper paste",
+      "red pepper paste",
+      "tinned tomato",
+      "tinned tomatoes",
+      "tinned tomatos",
+      "tomato paste",
+      "tomato puree",
+      "tomato sauce"
+    ],
+    "name_tr": "Konserve domates"
+  },
+  {
+    "id": "onion",
+    "name": "Onion",
+    "emoji": "🧅",
+    "cat": "veg",
+    "aliases": [
+      "onions",
+      "red onion",
+      "yellow onion"
+    ],
+    "name_tr": "Soğan"
+  },
+  {
+    "id": "green_onion",
+    "name": "Green onion",
+    "emoji": "🧅",
+    "cat": "veg",
+    "aliases": [
+      "scallion",
+      "scallions",
+      "spring onion"
+    ],
+    "name_tr": "Yeşil soğan"
+  },
+  {
+    "id": "garlic",
+    "name": "Garlic",
+    "emoji": "🧄",
+    "cat": "veg",
+    "aliases": [
+      "garlic bulb",
+      "garlic clove"
+    ],
+    "name_tr": "Sarımsak"
+  },
+  {
+    "id": "potato",
+    "name": "Potato",
+    "emoji": "🥔",
+    "cat": "veg",
+    "aliases": [
+      "baby new potatoes",
+      "floury potatoes",
+      "new potatoes",
+      "potatoes",
+      "red potatoes",
+      "russet potato"
+    ],
+    "name_tr": "Patates"
+  },
+  {
+    "id": "sweet_potato",
+    "name": "Sweet potato",
+    "emoji": "🍠",
+    "cat": "veg",
+    "aliases": [
+      "yam"
+    ],
+    "name_tr": "Tatlı patates"
+  },
+  {
+    "id": "carrot",
+    "name": "Carrot",
+    "emoji": "🥕",
+    "cat": "veg",
+    "aliases": [
+      "carrots"
+    ],
+    "name_tr": "Havuç"
+  },
+  {
+    "id": "bell_pepper",
+    "name": "Bell pepper",
+    "emoji": "🫑",
+    "cat": "veg",
+    "aliases": [
+      "capsicum",
+      "green pepper",
+      "orange pepper",
+      "pepper",
+      "peppers",
+      "red pepper",
+      "romano pepper",
+      "yellow pepper"
+    ],
+    "name_tr": "Dolmalık biber"
+  },
+  {
+    "id": "broccoli",
+    "name": "Broccoli",
+    "emoji": "🥦",
+    "cat": "veg",
+    "name_tr": "Brokoli"
+  },
+  {
+    "id": "spinach",
+    "name": "Spinach",
+    "emoji": "🥬",
+    "cat": "veg",
+    "name_tr": "Ispanak"
+  },
+  {
+    "id": "mushroom",
+    "name": "Mushroom",
+    "emoji": "🍄",
+    "cat": "veg",
+    "aliases": [
+      "mushrooms",
+      "shiitake mushrooms"
+    ],
+    "name_tr": "Mantar"
+  },
+  {
+    "id": "cucumber",
+    "name": "Cucumber",
+    "emoji": "🥒",
+    "cat": "veg",
+    "name_tr": "Salatalık"
+  },
+  {
+    "id": "peas",
+    "name": "Peas",
+    "emoji": "🫛",
+    "cat": "veg",
+    "aliases": [
+      "green peas",
+      "sugar snap peas"
+    ],
+    "name_tr": "Bezelye"
+  },
+  {
+    "id": "lettuce",
+    "name": "Lettuce",
+    "emoji": "🥬",
+    "cat": "veg",
+    "aliases": [
+      "arugula",
+      "rocket",
+      "salad greens"
+    ],
+    "name_tr": "Marul"
+  },
+  {
+    "id": "cabbage",
+    "name": "Cabbage",
+    "emoji": "🥬",
+    "cat": "veg",
+    "aliases": [
+      "red cabbage",
+      "savoy cabbage",
+      "white cabbage"
+    ],
+    "name_tr": "Lahana"
+  },
+  {
+    "id": "celery",
+    "name": "Celery",
+    "emoji": "🥬",
+    "cat": "veg",
+    "name_tr": "Kereviz"
+  },
+  {
+    "id": "chili",
+    "name": "Chili",
+    "emoji": "🌶️",
+    "cat": "veg",
+    "aliases": [
+      "birds eye chilli",
+      "birds-eye chillies",
+      "chili pepper",
+      "chilli",
+      "chillies",
+      "green chili",
+      "green chilli",
+      "jalapeno",
+      "red chili",
+      "red chilli",
+      "scotch bonnet"
+    ],
+    "name_tr": "Biber"
+  },
+  {
+    "id": "avocado",
+    "name": "Avocado",
+    "emoji": "🥑",
+    "cat": "fruit",
+    "name_tr": "Avokado"
+  },
+  {
+    "id": "lemon",
+    "name": "Lemon",
+    "emoji": "🍋",
+    "cat": "fruit",
+    "aliases": [
+      "lemon juice",
+      "lemon zest"
+    ],
+    "name_tr": "Limon"
+  },
+  {
+    "id": "banana",
+    "name": "Banana",
+    "emoji": "🍌",
+    "cat": "fruit",
+    "aliases": [
+      "bananas"
+    ],
+    "name_tr": "Muz"
+  },
+  {
+    "id": "rice",
+    "name": "Rice",
+    "emoji": "🍚",
+    "cat": "grain",
+    "aliases": [
+      "arborio rice",
+      "basmati rice",
+      "jasmine rice",
+      "long grain rice",
+      "paella rice",
+      "risotto rice",
+      "sushi rice"
+    ],
+    "name_tr": "Pirinç"
+  },
+  {
+    "id": "pasta",
+    "name": "Pasta",
+    "emoji": "🍝",
+    "cat": "grain",
+    "aliases": [
+      "fusilli",
+      "lasagne sheets",
+      "linguine",
+      "linguine pasta",
+      "macaroni",
+      "orzo",
+      "penne",
+      "rigatoni",
+      "spaghetti",
+      "tagliatelle"
+    ],
+    "name_tr": "Makarna"
+  },
+  {
+    "id": "noodles",
+    "name": "Noodles",
+    "emoji": "🍜",
+    "cat": "grain",
+    "aliases": [
+      "brown rice noodle",
+      "egg noodles",
+      "ramen",
+      "rice noodles",
+      "rice stick noodles",
+      "udon noodles",
+      "vermicelli",
+      "vermicelli pasta",
+      "vermicelli rice noodles"
+    ],
+    "name_tr": "Erişte"
+  },
+  {
+    "id": "couscous",
+    "name": "Couscous",
+    "emoji": "🌾",
+    "cat": "grain",
+    "name_tr": "Kuskus"
+  },
+  {
+    "id": "bread",
+    "name": "Bread",
+    "emoji": "🍞",
+    "cat": "grain",
+    "aliases": [
+      "baguette",
+      "crusty bread",
+      "naan bread",
+      "pita bread",
+      "rye bread",
+      "sliced bread",
+      "toast",
+      "white bread"
+    ],
+    "name_tr": "Ekmek"
+  },
+  {
+    "id": "tortilla",
+    "name": "Tortilla",
+    "emoji": "🫓",
+    "cat": "grain",
+    "aliases": [
+      "wrap",
+      "wraps"
+    ],
+    "name_tr": "Tortilla"
+  },
+  {
+    "id": "flour",
+    "name": "Flour",
+    "emoji": "🌾",
+    "cat": "grain",
+    "aliases": [
+      "all purpose flour",
+      "all-purpose flour",
+      "bread flour",
+      "plain flour",
+      "rice flour",
+      "self raising flour",
+      "self-raising flour",
+      "strong white bread flour",
+      "wheat flour"
+    ],
+    "name_tr": "Un"
+  },
+  {
+    "id": "oats",
+    "name": "Oats",
+    "emoji": "🥣",
+    "cat": "grain",
+    "aliases": [
+      "oatmeal",
+      "porridge oats",
+      "rolled oats"
+    ],
+    "name_tr": "Yulaf"
+  },
+  {
+    "id": "chickpeas",
+    "name": "Chickpeas",
+    "emoji": "🫘",
+    "cat": "legume",
+    "aliases": [
+      "garbanzo"
+    ],
+    "name_tr": "Nohut"
+  },
+  {
+    "id": "lentils",
+    "name": "Lentils",
+    "emoji": "🫘",
+    "cat": "legume",
+    "aliases": [
+      "brown lentils",
+      "red lentils",
+      "split red lentils"
+    ],
+    "name_tr": "Mercimek"
+  },
+  {
+    "id": "black_beans",
+    "name": "Black beans",
+    "emoji": "🫘",
+    "cat": "legume",
+    "name_tr": "Siyah fasulye"
+  },
+  {
+    "id": "soy_sauce",
+    "name": "Soy sauce",
+    "emoji": "🥢",
+    "cat": "pantry",
+    "name_tr": "Soya sosu"
+  },
+  {
+    "id": "olive_oil",
+    "name": "Olive oil",
+    "emoji": "🫒",
+    "cat": "pantry",
+    "aliases": [
+      "extra virgin olive oil",
+      "extra-virgin olive oil"
+    ],
+    "name_tr": "Zeytinyağı"
+  },
+  {
+    "id": "sesame_oil",
+    "name": "Sesame oil",
+    "emoji": "🛢️",
+    "cat": "pantry",
+    "aliases": [
+      "sesame seed oil"
+    ],
+    "name_tr": "Susam yağı"
+  },
+  {
+    "id": "vinegar",
+    "name": "Vinegar",
+    "emoji": "🍶",
+    "cat": "pantry",
+    "aliases": [
+      "apple cider vinegar",
+      "balsamic vinegar",
+      "cider vinegar",
+      "malt vinegar",
+      "red wine vinegar",
+      "rice vinegar",
+      "sherry vinegar",
+      "white vinegar",
+      "white wine vinegar"
+    ],
+    "name_tr": "Sirke"
+  },
+  {
+    "id": "honey",
+    "name": "Honey",
+    "emoji": "🍯",
+    "cat": "pantry",
+    "aliases": [
+      "clear honey"
+    ],
+    "animal": "product",
+    "name_tr": "Bal"
+  },
+  {
+    "id": "sugar",
+    "name": "Sugar",
+    "emoji": "🍬",
+    "cat": "pantry",
+    "aliases": [
+      "brown sugar",
+      "caster sugar",
+      "dark brown soft sugar",
+      "demerara sugar",
+      "golden caster sugar",
+      "granulated sugar",
+      "icing sugar",
+      "muscovado sugar",
+      "palm sugar",
+      "powdered sugar"
+    ],
+    "name_tr": "Şeker"
+  },
+  {
+    "id": "mayonnaise",
+    "name": "Mayonnaise",
+    "emoji": "🫙",
+    "cat": "pantry",
+    "aliases": [
+      "mayo"
+    ],
+    "animal": "product",
+    "name_tr": "Mayonez"
+  },
+  {
+    "id": "peanut_butter",
+    "name": "Peanut butter",
+    "emoji": "🥜",
+    "cat": "pantry",
+    "name_tr": "Fıstık ezmesi"
+  },
+  {
+    "id": "coconut_milk",
+    "name": "Coconut milk",
+    "emoji": "🥥",
+    "cat": "pantry",
+    "aliases": [
+      "coconut cream"
+    ],
+    "name_tr": "Hindistan cevizi sütü"
+  },
+  {
+    "id": "curry_powder",
+    "name": "Curry powder",
+    "emoji": "🍛",
+    "cat": "pantry",
+    "aliases": [
+      "curry"
+    ],
+    "name_tr": "Köri tozu"
+  },
+  {
+    "id": "cumin",
+    "name": "Cumin",
+    "emoji": "🧂",
+    "cat": "pantry",
+    "aliases": [
+      "cumin seeds",
+      "ground cumin"
+    ],
+    "name_tr": "Kimyon"
+  },
+  {
+    "id": "paprika",
+    "name": "Paprika",
+    "emoji": "🌶️",
+    "cat": "pantry",
+    "aliases": [
+      "smoked paprika",
+      "sweet smoked paprika"
+    ],
+    "name_tr": "Kırmızı toz biber"
+  },
+  {
+    "id": "cinnamon",
+    "name": "Cinnamon",
+    "emoji": "🧂",
+    "cat": "pantry",
+    "aliases": [
+      "cinnamon stick",
+      "ground cinnamon"
+    ],
+    "name_tr": "Tarçın"
+  },
+  {
+    "id": "basil",
+    "name": "Basil",
+    "emoji": "🌿",
+    "cat": "herb",
+    "aliases": [
+      "basil leaves"
+    ],
+    "name_tr": "Fesleğen"
+  },
+  {
+    "id": "parsley",
+    "name": "Parsley",
+    "emoji": "🌿",
+    "cat": "herb",
+    "name_tr": "Maydanoz"
+  },
+  {
+    "id": "cilantro",
+    "name": "Cilantro",
+    "emoji": "🌿",
+    "cat": "herb",
+    "aliases": [
+      "cilantro leaves",
+      "coriander",
+      "coriander leaves"
+    ],
+    "name_tr": "Kişniş"
+  },
+  {
+    "id": "ginger",
+    "name": "Ginger",
+    "emoji": "🫚",
+    "cat": "herb",
+    "aliases": [
+      "ginger paste",
+      "ground ginger"
+    ],
+    "name_tr": "Zencefil"
+  },
+  {
+    "id": "lamb",
+    "name": "Lamb",
+    "emoji": "🍖",
+    "cat": "meat",
+    "aliases": [
+      "lamb mince",
+      "lamb leg",
+      "lamb shoulder",
+      "minced lamb",
+      "lamb shank"
+    ],
+    "name_tr": "Kuzu"
+  },
+  {
+    "id": "chorizo",
+    "name": "Chorizo",
+    "emoji": "🌭",
+    "cat": "meat",
+    "name_tr": "Chorizo"
+  },
+  {
+    "id": "ham",
+    "name": "Ham",
+    "emoji": "🍖",
+    "cat": "meat",
+    "name_tr": "Jambon"
+  },
+  {
+    "id": "white_fish",
+    "name": "White fish",
+    "emoji": "🐟",
+    "cat": "fish",
+    "aliases": [
+      "cod",
+      "haddock",
+      "fish fillet",
+      "smoked haddock",
+      "salt cod",
+      "cod fillet"
+    ],
+    "name_tr": "Beyaz balık"
+  },
+  {
+    "id": "squid",
+    "name": "Squid",
+    "emoji": "🦑",
+    "cat": "fish",
+    "aliases": [
+      "calamari"
+    ],
+    "name_tr": "Kalamar"
+  },
+  {
+    "id": "cream_cheese",
+    "name": "Cream cheese",
+    "emoji": "🧀",
+    "cat": "dairy",
+    "aliases": [
+      "mascarpone",
+      "ricotta"
+    ],
+    "name_tr": "Krem peynir"
+  },
+  {
+    "id": "sour_cream",
+    "name": "Sour cream",
+    "emoji": "🥛",
+    "cat": "dairy",
+    "aliases": [
+      "creme fraiche",
+      "soured cream"
+    ],
+    "name_tr": "Ekşi krema"
+  },
+  {
+    "id": "condensed_milk",
+    "name": "Condensed milk",
+    "emoji": "🥛",
+    "cat": "dairy",
+    "aliases": [
+      "sweetened condensed milk"
+    ],
+    "name_tr": "Yoğunlaştırılmış süt"
+  },
+  {
+    "id": "shallot",
+    "name": "Shallot",
+    "emoji": "🧅",
+    "cat": "veg",
+    "aliases": [
+      "shallots",
+      "challots"
+    ],
+    "name_tr": "Arpacık soğanı"
+  },
+  {
+    "id": "leek",
+    "name": "Leek",
+    "emoji": "🥬",
+    "cat": "veg",
+    "aliases": [
+      "leeks"
+    ],
+    "name_tr": "Pırasa"
+  },
+  {
+    "id": "aubergine",
+    "name": "Aubergine",
+    "emoji": "🍆",
+    "cat": "veg",
+    "aliases": [
+      "eggplant",
+      "egg plants",
+      "aubergines"
+    ],
+    "name_tr": "Patlıcan"
+  },
+  {
+    "id": "courgette",
+    "name": "Courgette",
+    "emoji": "🥒",
+    "cat": "veg",
+    "aliases": [
+      "zucchini",
+      "courgettes"
+    ],
+    "name_tr": "Kabak"
+  },
+  {
+    "id": "green_beans",
+    "name": "Green beans",
+    "emoji": "🫛",
+    "cat": "veg",
+    "aliases": [
+      "french beans",
+      "runner beans"
+    ],
+    "name_tr": "Yeşil fasulye"
+  },
+  {
+    "id": "pumpkin",
+    "name": "Pumpkin",
+    "emoji": "🎃",
+    "cat": "veg",
+    "aliases": [
+      "butternut squash",
+      "squash"
+    ],
+    "name_tr": "Kabak"
+  },
+  {
+    "id": "beetroot",
+    "name": "Beetroot",
+    "emoji": "🟣",
+    "cat": "veg",
+    "aliases": [
+      "beet"
+    ],
+    "name_tr": "Pancar"
+  },
+  {
+    "id": "kale",
+    "name": "Kale",
+    "emoji": "🥬",
+    "cat": "veg",
+    "name_tr": "Kıvırcık lahana"
+  },
+  {
+    "id": "fennel",
+    "name": "Fennel",
+    "emoji": "🥬",
+    "cat": "veg",
+    "aliases": [
+      "fennel bulb"
+    ],
+    "name_tr": "Rezene"
+  },
+  {
+    "id": "sweetcorn",
+    "name": "Sweetcorn",
+    "emoji": "🌽",
+    "cat": "veg",
+    "aliases": [
+      "corn",
+      "corn on the cob"
+    ],
+    "name_tr": "Tatlı mısır"
+  },
+  {
+    "id": "radish",
+    "name": "Radish",
+    "emoji": "🥬",
+    "cat": "veg",
+    "aliases": [
+      "radishes"
+    ],
+    "name_tr": "Turp"
+  },
+  {
+    "id": "asparagus",
+    "name": "Asparagus",
+    "emoji": "🥬",
+    "cat": "veg",
+    "name_tr": "Kuşkonmaz"
+  },
+  {
+    "id": "lime",
+    "name": "Lime",
+    "emoji": "🍋",
+    "cat": "fruit",
+    "aliases": [
+      "lime juice",
+      "lime zest"
+    ],
+    "name_tr": "Lime"
+  },
+  {
+    "id": "orange",
+    "name": "Orange",
+    "emoji": "🍊",
+    "cat": "fruit",
+    "aliases": [
+      "orange juice",
+      "orange zest"
+    ],
+    "name_tr": "Portakal"
+  },
+  {
+    "id": "apple",
+    "name": "Apple",
+    "emoji": "🍎",
+    "cat": "fruit",
+    "aliases": [
+      "apples",
+      "braeburn apples",
+      "bramley apples"
+    ],
+    "name_tr": "Elma"
+  },
+  {
+    "id": "strawberry",
+    "name": "Strawberry",
+    "emoji": "🍓",
+    "cat": "fruit",
+    "aliases": [
+      "strawberries"
+    ],
+    "name_tr": "Çilek"
+  },
+  {
+    "id": "mango",
+    "name": "Mango",
+    "emoji": "🥭",
+    "cat": "fruit",
+    "name_tr": "Mango"
+  },
+  {
+    "id": "raisins",
+    "name": "Raisins",
+    "emoji": "🍇",
+    "cat": "fruit",
+    "aliases": [
+      "sultanas",
+      "currants"
+    ],
+    "name_tr": "Kuru üzüm"
+  },
+  {
+    "id": "coconut",
+    "name": "Coconut",
+    "emoji": "🥥",
+    "cat": "fruit",
+    "aliases": [
+      "desiccated coconut",
+      "coconut flakes"
+    ],
+    "name_tr": "Hindistan cevizi"
+  },
+  {
+    "id": "breadcrumbs",
+    "name": "Breadcrumbs",
+    "emoji": "🍞",
+    "cat": "grain",
+    "aliases": [
+      "panko"
+    ],
+    "name_tr": "Galeta unu"
+  },
+  {
+    "id": "pastry",
+    "name": "Pastry",
+    "emoji": "🥐",
+    "cat": "grain",
+    "aliases": [
+      "filo",
+      "filo pastry",
+      "phyllo",
+      "phyllo pastry",
+      "puff pastry",
+      "shortcrust pastry",
+      "yufka"
+    ],
+    "name_tr": "Hamur işi"
+  },
+  {
+    "id": "quinoa",
+    "name": "Quinoa",
+    "emoji": "🌾",
+    "cat": "grain",
+    "name_tr": "Kinoa"
+  },
+  {
+    "id": "kidney_beans",
+    "name": "Kidney beans",
+    "emoji": "🫘",
+    "cat": "legume",
+    "aliases": [
+      "red kidney beans"
+    ],
+    "name_tr": "Börülce"
+  },
+  {
+    "id": "white_beans",
+    "name": "White beans",
+    "emoji": "🫘",
+    "cat": "legume",
+    "aliases": [
+      "cannellini beans",
+      "dried white beans",
+      "butter beans",
+      "haricot beans"
+    ],
+    "name_tr": "Beyaz fasulye"
+  },
+  {
+    "id": "baking_powder",
+    "name": "Baking powder",
+    "emoji": "🥄",
+    "cat": "pantry",
+    "aliases": [
+      "bicarbonate of soda",
+      "baking soda"
+    ],
+    "name_tr": "Kabartma tozu"
+  },
+  {
+    "id": "yeast",
+    "name": "Yeast",
+    "emoji": "🍞",
+    "cat": "pantry",
+    "aliases": [
+      "instant yeast",
+      "fast action yeast",
+      "active dry yeast"
+    ],
+    "name_tr": "Maya"
+  },
+  {
+    "id": "vanilla",
+    "name": "Vanilla",
+    "emoji": "🍦",
+    "cat": "pantry",
+    "aliases": [
+      "vanilla extract",
+      "vanilla pod",
+      "vanilla essence"
+    ],
+    "name_tr": "Vanilya"
+  },
+  {
+    "id": "cornstarch",
+    "name": "Cornstarch",
+    "emoji": "🌽",
+    "cat": "pantry",
+    "aliases": [
+      "corn flour",
+      "cornflour",
+      "starch"
+    ],
+    "name_tr": "Mısır nişastası"
+  },
+  {
+    "id": "cocoa",
+    "name": "Cocoa",
+    "emoji": "🍫",
+    "cat": "pantry",
+    "aliases": [
+      "cocoa powder",
+      "cacao"
+    ],
+    "name_tr": "Kakao"
+  },
+  {
+    "id": "chocolate",
+    "name": "Chocolate",
+    "emoji": "🍫",
+    "cat": "pantry",
+    "aliases": [
+      "dark chocolate",
+      "milk chocolate",
+      "chocolate chips"
+    ],
+    "name_tr": "Çikolata"
+  },
+  {
+    "id": "syrup",
+    "name": "Syrup",
+    "emoji": "🍯",
+    "cat": "pantry",
+    "aliases": [
+      "maple syrup",
+      "golden syrup",
+      "black treacle",
+      "molasses"
+    ],
+    "name_tr": "Şurup"
+  },
+  {
+    "id": "stock",
+    "name": "Stock",
+    "emoji": "🍲",
+    "cat": "pantry",
+    "aliases": [
+      "chicken stock",
+      "beef stock",
+      "vegetable stock",
+      "fish stock",
+      "stock cube",
+      "chicken stock cube",
+      "vegetable stock cube",
+      "beef stock cube"
+    ],
+    "animal": "meat",
+    "name_tr": "Et / Sebze suyu"
+  },
+  {
+    "id": "fish_sauce",
+    "name": "Fish sauce",
+    "emoji": "🐟",
+    "cat": "pantry",
+    "animal": "meat",
+    "name_tr": "Balık sosu"
+  },
+  {
+    "id": "oyster_sauce",
+    "name": "Oyster sauce",
+    "emoji": "🦪",
+    "cat": "pantry",
+    "animal": "meat",
+    "name_tr": "İstiridye sosu"
+  },
+  {
+    "id": "worcestershire",
+    "name": "Worcestershire sauce",
+    "emoji": "🫙",
+    "cat": "pantry",
+    "aliases": [
+      "worcestershire sauce"
+    ],
+    "animal": "meat",
+    "name_tr": "Worcestershire sosu"
+  },
+  {
+    "id": "mustard",
+    "name": "Mustard",
+    "emoji": "🫙",
+    "cat": "pantry",
+    "aliases": [
+      "dijon mustard",
+      "english mustard"
+    ],
+    "name_tr": "Hardal"
+  },
+  {
+    "id": "curry_paste",
+    "name": "Curry paste",
+    "emoji": "🍛",
+    "cat": "pantry",
+    "aliases": [
+      "thai red curry paste",
+      "thai green curry paste",
+      "red curry paste",
+      "green curry paste"
+    ],
+    "name_tr": "Kari ezmesi"
+  },
+  {
+    "id": "tahini",
+    "name": "Tahini",
+    "emoji": "🥜",
+    "cat": "pantry",
+    "aliases": [
+      "tahini paste"
+    ],
+    "name_tr": "Tahini"
+  },
+  {
+    "id": "wine",
+    "name": "Wine",
+    "emoji": "🍷",
+    "cat": "pantry",
+    "aliases": [
+      "white wine",
+      "red wine",
+      "dry white wine",
+      "dry sherry"
+    ],
+    "name_tr": "Şarap"
+  },
+  {
+    "id": "almonds",
+    "name": "Almonds",
+    "emoji": "🥜",
+    "cat": "pantry",
+    "aliases": [
+      "flaked almonds",
+      "ground almonds",
+      "almond"
+    ],
+    "name_tr": "Badem"
+  },
+  {
+    "id": "walnuts",
+    "name": "Walnuts",
+    "emoji": "🥜",
+    "cat": "pantry",
+    "aliases": [
+      "ground walnuts",
+      "walnut"
+    ],
+    "name_tr": "Ceviz"
+  },
+  {
+    "id": "peanuts",
+    "name": "Peanuts",
+    "emoji": "🥜",
+    "cat": "pantry",
+    "aliases": [
+      "roasted peanut",
+      "peanut"
+    ],
+    "name_tr": "Yer fıstığı"
+  },
+  {
+    "id": "cashews",
+    "name": "Cashews",
+    "emoji": "🥜",
+    "cat": "pantry",
+    "aliases": [
+      "cashew nuts"
+    ],
+    "name_tr": "Kaju"
+  },
+  {
+    "id": "pecans",
+    "name": "Pecans",
+    "emoji": "🥜",
+    "cat": "pantry",
+    "aliases": [
+      "pecan nuts"
+    ],
+    "name_tr": "Ceviz"
+  },
+  {
+    "id": "turmeric",
+    "name": "Turmeric",
+    "emoji": "🧂",
+    "cat": "pantry",
+    "aliases": [
+      "ground turmeric"
+    ],
+    "name_tr": "Zerdeçal"
+  },
+  {
+    "id": "cardamom",
+    "name": "Cardamom",
+    "emoji": "🧂",
+    "cat": "pantry",
+    "aliases": [
+      "ground cardomom",
+      "ground cardamom"
+    ],
+    "name_tr": "Kakule"
+  },
+  {
+    "id": "allspice",
+    "name": "Allspice",
+    "emoji": "🧂",
+    "cat": "pantry",
+    "aliases": [
+      "ground allspice"
+    ],
+    "name_tr": "Yenibahar"
+  },
+  {
+    "id": "nutmeg",
+    "name": "Nutmeg",
+    "emoji": "🧂",
+    "cat": "pantry",
+    "aliases": [
+      "ground nutmeg"
+    ],
+    "name_tr": "Muskat"
+  },
+  {
+    "id": "cayenne",
+    "name": "Cayenne pepper",
+    "emoji": "🌶️",
+    "cat": "pantry",
+    "name_tr": "Kırmızı biber"
+  },
+  {
+    "id": "chili_flakes",
+    "name": "Chili flakes",
+    "emoji": "🌶️",
+    "cat": "pantry",
+    "aliases": [
+      "aleppo pepper",
+      "chili powder",
+      "chilli flakes",
+      "chilli powder",
+      "pul biber",
+      "red chilli flakes",
+      "red pepper flakes"
+    ],
+    "name_tr": "Kırmızı biber parçaları"
+  },
+  {
+    "id": "garam_masala",
+    "name": "Garam masala",
+    "emoji": "🧂",
+    "cat": "pantry",
+    "name_tr": "Garam masala"
+  },
+  {
+    "id": "cloves",
+    "name": "Cloves",
+    "emoji": "🧂",
+    "cat": "pantry",
+    "name_tr": "Karanfil"
+  },
+  {
+    "id": "star_anise",
+    "name": "Star anise",
+    "emoji": "🧂",
+    "cat": "pantry",
+    "name_tr": "Yıldız anasonu"
+  },
+  {
+    "id": "thyme",
+    "name": "Thyme",
+    "emoji": "🌿",
+    "cat": "herb",
+    "name_tr": "Kekik"
+  },
+  {
+    "id": "bay_leaf",
+    "name": "Bay leaf",
+    "emoji": "🌿",
+    "cat": "herb",
+    "aliases": [
+      "bay leaves"
+    ],
+    "name_tr": "Defne yaprağı"
+  },
+  {
+    "id": "mint",
+    "name": "Mint",
+    "emoji": "🌿",
+    "cat": "herb",
+    "aliases": [
+      "dried mint"
+    ],
+    "name_tr": "Nane"
+  },
+  {
+    "id": "oregano",
+    "name": "Oregano",
+    "emoji": "🌿",
+    "cat": "herb",
+    "aliases": [
+      "dried oregano",
+      "marjoram"
+    ],
+    "name_tr": "Kekik"
+  },
+  {
+    "id": "rosemary",
+    "name": "Rosemary",
+    "emoji": "🌿",
+    "cat": "herb",
+    "name_tr": "Biberiye"
+  },
+  {
+    "id": "dill",
+    "name": "Dill",
+    "emoji": "🌿",
+    "cat": "herb",
+    "name_tr": "Dereotu"
+  },
+  {
+    "id": "chives",
+    "name": "Chives",
+    "emoji": "🌿",
+    "cat": "herb",
+    "name_tr": "Frenk soğanı"
+  },
+  {
+    "id": "sage",
+    "name": "Sage",
+    "emoji": "🌿",
+    "cat": "herb",
+    "name_tr": "Adaçayı"
+  },
+  {
+    "id": "sesame_seeds",
+    "name": "Sesame seeds",
+    "emoji": "🧂",
+    "cat": "pantry",
+    "aliases": [
+      "sesame seed"
+    ],
+    "name_tr": "Susam tohumu"
+  },
+  {
+    "id": "lemongrass",
+    "name": "Lemongrass",
+    "emoji": "🌿",
+    "cat": "herb",
+    "aliases": [
+      "lemongrass stalks"
+    ],
+    "name_tr": "Limon otu"
+  },
+  {
+    "id": "bulgur",
+    "name": "Bulgur",
+    "emoji": "🌾",
+    "cat": "grain",
+    "aliases": [
+      "bulgur wheat",
+      "cracked wheat",
+      "fine bulgur"
+    ],
+    "name_tr": "Bulgur"
+  },
+  {
+    "id": "semolina",
+    "name": "Semolina",
+    "emoji": "🌾",
+    "cat": "grain",
+    "aliases": [
+      "fine semolina"
+    ],
+    "name_tr": "İrmik"
+  },
+  {
+    "id": "sumac",
+    "name": "Sumac",
+    "emoji": "🧂",
+    "cat": "pantry",
+    "aliases": [
+      "sumak"
+    ],
+    "name_tr": "Sumak"
+  },
+  {
+    "id": "sucuk",
+    "name": "Sucuk",
+    "emoji": "🌭",
+    "cat": "meat",
+    "aliases": [
+      "turkish sausage"
+    ],
+    "name_tr": "Sucuk"
+  }
+]

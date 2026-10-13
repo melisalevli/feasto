@@ -1,0 +1,751 @@
+[
+  {
+    "from": "parmesan",
+    "to": "cheese",
+    "compat": "medium",
+    "note": "Creamier and less salty, with a milder flavor.",
+    "note_tr": "Daha kremamsı ve daha az tuzlu, daha hafif bir tada sahip."
+  },
+  {
+    "from": "parmesan",
+    "to": "mozzarella",
+    "compat": "low",
+    "note": "Melts instead of seasoning; the dish loses its salty bite.",
+    "note_tr": "Baharat yerine erir; yemek tuzlu keskinliğini kaybeder."
+  },
+  {
+    "from": "cheese",
+    "to": "mozzarella",
+    "compat": "high",
+    "note": "Melts well, but the flavor is milder.",
+    "note_tr": "İyi eriyor, ama tadı daha hafif."
+  },
+  {
+    "from": "cheese",
+    "to": "parmesan",
+    "compat": "medium",
+    "note": "Saltier and sharper; use less, and it won't melt as smoothly.",
+    "note_tr": "Daha tuzlu ve daha keskin; daha az kullanın, ve bu kadar düzgün erimez."
+  },
+  {
+    "from": "cheese",
+    "to": "feta",
+    "compat": "low",
+    "note": "Tangy and crumbly, and it won't melt.",
+    "note_tr": "Ekşi ve gevrek, ve erimez."
+  },
+  {
+    "from": "mozzarella",
+    "to": "cheese",
+    "compat": "medium",
+    "note": "Sharper flavor, slightly firmer texture.",
+    "note_tr": "Daha keskin tat, biraz daha sert doku."
+  },
+  {
+    "from": "feta",
+    "to": "mozzarella",
+    "compat": "low",
+    "note": "Milder and creamier, without the salty tang.",
+    "note_tr": "Daha hafif ve kremamsı, tuzlu keskinlik olmadan."
+  },
+  {
+    "from": "butter",
+    "to": "olive_oil",
+    "compat": "medium",
+    "note": "Fruitier and less rich; use slightly less.",
+    "note_tr": "Daha meyvemsi ve daha az zengin; biraz daha az kullanın."
+  },
+  {
+    "from": "olive_oil",
+    "to": "butter",
+    "compat": "medium",
+    "note": "Richer flavor; it browns faster, so use lower heat.",
+    "note_tr": "Daha zengin tat; daha hızlı kızarır, bu yüzden daha düşük ısı kullanın."
+  },
+  {
+    "from": "milk",
+    "to": "cream",
+    "compat": "medium",
+    "note": "Much richer; thin it with a splash of water.",
+    "note_tr": "Çok daha zengin; biraz su ekleyerek inceltin."
+  },
+  {
+    "from": "milk",
+    "to": "yogurt",
+    "compat": "medium",
+    "note": "Thicker and tangier; thin it with water.",
+    "note_tr": "Daha yoğun ve daha ekşi; su ile inceltin."
+  },
+  {
+    "from": "milk",
+    "to": "coconut_milk",
+    "compat": "medium",
+    "note": "Adds a mild coconut flavor.",
+    "note_tr": "Hafif bir hindistancevizi aroması ekler."
+  },
+  {
+    "from": "cream",
+    "to": "milk",
+    "compat": "medium",
+    "note": "Thinner and lighter; add a little butter for richness.",
+    "note_tr": "Daha ince ve hafif; zenginlik için biraz tereyağı ekleyin."
+  },
+  {
+    "from": "cream",
+    "to": "coconut_milk",
+    "compat": "high",
+    "note": "Similar richness with a hint of coconut.",
+    "note_tr": "Hindistan cevizi ipucu ile benzer zenginlik."
+  },
+  {
+    "from": "cream",
+    "to": "yogurt",
+    "compat": "medium",
+    "note": "Tangier; stir it in off the heat so it doesn't split.",
+    "note_tr": "Tanca; ayrılmaması için ocaktan aldıktan sonra karıştırın."
+  },
+  {
+    "from": "sesame_oil",
+    "to": "olive_oil",
+    "compat": "medium",
+    "note": "You lose the toasted, nutty aroma, but the dish still works.",
+    "note_tr": "Kavrulmuş, fındıksı aromayı kaybedersiniz, ama yemek yine de işe yarar."
+  },
+  {
+    "from": "green_onion",
+    "to": "onion",
+    "compat": "medium",
+    "note": "Sharper and stronger; use less and chop it fine.",
+    "note_tr": "Daha keskin ve güçlü; daha az kullanın ve ince doğrayın."
+  },
+  {
+    "from": "onion",
+    "to": "green_onion",
+    "compat": "medium",
+    "note": "Milder; use a larger handful.",
+    "note_tr": "Daha hafif; daha büyük bir avuç kullanın."
+  },
+  {
+    "from": "garlic",
+    "to": "onion",
+    "compat": "low",
+    "note": "Adds savory depth but not garlic's punch.",
+    "note_tr": "Tuzlu bir derinlik katar, ama sarımsak gibi sert bir etki vermez."
+  },
+  {
+    "from": "basil",
+    "to": "parsley",
+    "compat": "low",
+    "note": "Fresh and green, but without basil's sweetness.",
+    "note_tr": "Taze ve yeşil, ama fesleğenin tatlılığı olmadan."
+  },
+  {
+    "from": "basil",
+    "to": "cilantro",
+    "compat": "low",
+    "note": "Very different flavor; works only in bold dishes.",
+    "note_tr": "Çok farklı bir tat; sadece yoğun yemeklerde işe yarar."
+  },
+  {
+    "from": "parsley",
+    "to": "cilantro",
+    "compat": "medium",
+    "note": "Brighter and more distinctive.",
+    "note_tr": "Daha parlak ve daha ayırt edici."
+  },
+  {
+    "from": "cilantro",
+    "to": "parsley",
+    "compat": "medium",
+    "note": "Milder, without the citrusy edge.",
+    "note_tr": "Daha yumuşak, narenciye keskinliği olmadan."
+  },
+  {
+    "from": "bacon",
+    "to": "sausage",
+    "compat": "medium",
+    "note": "Meatier and less crisp; slice it thin.",
+    "note_tr": "Daha etli ve daha az çıtır; ince dilimleyin."
+  },
+  {
+    "from": "sausage",
+    "to": "bacon",
+    "compat": "medium",
+    "note": "Smokier and crispier.",
+    "note_tr": "Daha dumanlı ve daha çıtır."
+  },
+  {
+    "from": "chicken",
+    "to": "tofu",
+    "compat": "low",
+    "note": "Softer and milder; press it and season well.",
+    "note_tr": "Daha yumuşak ve hafif; bastırın ve iyice baharatlayın."
+  },
+  {
+    "from": "chicken",
+    "to": "pork",
+    "compat": "medium",
+    "note": "Slightly richer; cook it through.",
+    "note_tr": "Biraz daha zengin; tamamen pişirin."
+  },
+  {
+    "from": "beef",
+    "to": "pork",
+    "compat": "medium",
+    "note": "Milder, a little sweeter.",
+    "note_tr": "Daha hafif, biraz daha tatlı."
+  },
+  {
+    "from": "beef",
+    "to": "lentils",
+    "compat": "low",
+    "note": "Vegetarian swap; earthier and softer.",
+    "note_tr": "Vejetaryen değişiklik; daha toprak tonlu ve daha yumuşak."
+  },
+  {
+    "from": "pork",
+    "to": "chicken",
+    "compat": "medium",
+    "note": "Leaner, so it can dry out faster.",
+    "note_tr": "Daha az yağlı, böylece daha hızlı kuruyabilir."
+  },
+  {
+    "from": "shrimp",
+    "to": "chicken",
+    "compat": "medium",
+    "note": "Needs longer cooking and tastes less sweet.",
+    "note_tr": "Daha uzun pişmeye ihtiyaç duyar ve tadı daha az tatlıdır."
+  },
+  {
+    "from": "salmon",
+    "to": "tuna",
+    "compat": "medium",
+    "note": "Leaner and less rich; don't overcook.",
+    "note_tr": "Daha az yağlı ve daha az zengin; fazla pişirmeyin."
+  },
+  {
+    "from": "tuna",
+    "to": "salmon",
+    "compat": "medium",
+    "note": "Richer and oilier.",
+    "note_tr": "Daha zengin ve daha yağlı."
+  },
+  {
+    "from": "egg",
+    "to": "tofu",
+    "compat": "low",
+    "note": "Only works in scrambles; no binding or fluffiness.",
+    "note_tr": "Sadece karışıklıklarda çalışır; bağlayıcı veya kabarma yok."
+  },
+  {
+    "from": "tomato",
+    "to": "canned_tomatoes",
+    "compat": "high",
+    "note": "Great in cooked dishes; too soft for fresh salads.",
+    "note_tr": "Pişmiş yemeklerde harika; taze salatalar için çok yumuşak."
+  },
+  {
+    "from": "tomato",
+    "to": "bell_pepper",
+    "compat": "low",
+    "note": "Sweeter and crunchier, with less acidity.",
+    "note_tr": "Daha tatlı ve daha gevrek, daha az asidik."
+  },
+  {
+    "from": "rice",
+    "to": "couscous",
+    "compat": "medium",
+    "note": "Cooks in 5 minutes and is fluffier; won't crisp in a stir-fry.",
+    "note_tr": "5 dakikada pişer ve daha kabarık olur; bir sote yemeğinde çıtırlaşmaz."
+  },
+  {
+    "from": "couscous",
+    "to": "rice",
+    "compat": "medium",
+    "note": "Chewier and slower to cook.",
+    "note_tr": "Daha çiğnenebilir ve pişirmesi daha yavaş."
+  },
+  {
+    "from": "pasta",
+    "to": "noodles",
+    "compat": "high",
+    "note": "Texture differs slightly; the sauce clings the same way.",
+    "note_tr": "Doku biraz farklı; sos aynı şekilde yapışıyor."
+  },
+  {
+    "from": "noodles",
+    "to": "pasta",
+    "compat": "high",
+    "note": "Thicker and chewier.",
+    "note_tr": "Daha kalın ve daha çiğnenebilir."
+  },
+  {
+    "from": "potato",
+    "to": "sweet_potato",
+    "compat": "medium",
+    "note": "Sweeter and softer; cooks a bit faster.",
+    "note_tr": "Daha tatlı ve daha yumuşak; biraz daha hızlı pişer."
+  },
+  {
+    "from": "sweet_potato",
+    "to": "potato",
+    "compat": "medium",
+    "note": "Starchier and less sweet.",
+    "note_tr": "Daha nişastalı ve daha az tatlı."
+  },
+  {
+    "from": "lettuce",
+    "to": "cabbage",
+    "compat": "medium",
+    "note": "Crunchier and more peppery; slice it thin.",
+    "note_tr": "Daha gevrek ve daha biberli; ince dilimleyin."
+  },
+  {
+    "from": "lemon",
+    "to": "vinegar",
+    "compat": "medium",
+    "note": "Gives acidity but no fresh citrus aroma; use less.",
+    "note_tr": "Asidite verir ama taze narenciye aroması yok; daha az kullanın."
+  },
+  {
+    "from": "honey",
+    "to": "sugar",
+    "compat": "medium",
+    "note": "Less floral, and it won't dissolve as easily.",
+    "note_tr": "Daha az çiçeksi ve o kadar kolay çözülmez."
+  },
+  {
+    "from": "sugar",
+    "to": "honey",
+    "compat": "medium",
+    "note": "Sweeter; use a little less.",
+    "note_tr": "Daha tatlı; biraz daha az kullan."
+  },
+  {
+    "from": "chickpeas",
+    "to": "black_beans",
+    "compat": "medium",
+    "note": "Softer and earthier.",
+    "note_tr": "Daha yumuşak ve daha topraksı."
+  },
+  {
+    "from": "black_beans",
+    "to": "chickpeas",
+    "compat": "medium",
+    "note": "Nuttier, with a firmer bite.",
+    "note_tr": "Daha fındıksı, daha sert bir ısırıkla."
+  },
+  {
+    "from": "bread",
+    "to": "tortilla",
+    "compat": "medium",
+    "note": "Thinner and chewier; better for wraps than for toasting.",
+    "note_tr": "Daha ince ve daha çiğnenebilir; kızartmaktan çok dürüm için daha iyidir."
+  },
+  {
+    "from": "tortilla",
+    "to": "bread",
+    "compat": "medium",
+    "note": "Fluffier; toast it instead of folding.",
+    "note_tr": "Daha kabarık; katlamak yerine kızart."
+  },
+  {
+    "from": "coconut_milk",
+    "to": "cream",
+    "compat": "medium",
+    "note": "Richer without the coconut flavor.",
+    "note_tr": "Hindistan cevizi aroması olmadan daha zengin."
+  },
+  {
+    "from": "mayonnaise",
+    "to": "yogurt",
+    "compat": "medium",
+    "note": "Tangier and lighter.",
+    "note_tr": "Daha ekşimsi ve daha hafif."
+  },
+  {
+    "from": "curry_powder",
+    "to": "cumin",
+    "compat": "low",
+    "note": "Earthy only; add paprika or ginger to approximate the blend.",
+    "note_tr": "Sadece topraksı; karışımı taklit etmek için paprika veya zencefil ekleyin."
+  },
+  {
+    "from": "paprika",
+    "to": "chili",
+    "compat": "low",
+    "note": "Much hotter; use a pinch.",
+    "note_tr": "Çok daha sıcak; bir tutam kullan."
+  },
+  {
+    "from": "shallot",
+    "to": "onion",
+    "compat": "high",
+    "note": "Slightly stronger and less sweet; use a little less.",
+    "note_tr": "Biraz daha sert ve daha az tatlı; biraz daha az kullanın."
+  },
+  {
+    "from": "onion",
+    "to": "shallot",
+    "compat": "high",
+    "note": "Milder and a touch sweeter; use a bit more.",
+    "note_tr": "Daha hafif ve biraz daha tatlı; biraz daha kullanın."
+  },
+  {
+    "from": "leek",
+    "to": "onion",
+    "compat": "medium",
+    "note": "Sharper and less sweet; slice it thin and cook it longer.",
+    "note_tr": "Daha keskin ve daha az tatlı; ince dilimleyin ve daha uzun pişirin."
+  },
+  {
+    "from": "leek",
+    "to": "green_onion",
+    "compat": "medium",
+    "note": "Milder and fresher; use more and cook it briefly.",
+    "note_tr": "Daha hafif ve taze; daha fazla kullanın ve kısa süre pişirin."
+  },
+  {
+    "from": "lime",
+    "to": "lemon",
+    "compat": "high",
+    "note": "Slightly sweeter and less sharp, with a different aroma.",
+    "note_tr": "Biraz daha tatlı ve daha az keskin, farklı bir aromaya sahip."
+  },
+  {
+    "from": "lemon",
+    "to": "lime",
+    "compat": "high",
+    "note": "A bit more bitter and floral.",
+    "note_tr": "Biraz daha acı ve çiçeksi."
+  },
+  {
+    "from": "orange",
+    "to": "lemon",
+    "compat": "medium",
+    "note": "Sweeter and less acidic; add a splash of vinegar if the dish needs tang.",
+    "note_tr": "Daha tatlı ve daha az asidik; yemek daha keskinse bir damla sirke ekleyin."
+  },
+  {
+    "from": "lemon",
+    "to": "orange",
+    "compat": "low",
+    "note": "Much sweeter; you lose the acidity.",
+    "note_tr": "Çok daha tatlı; asiditeyi kaybediyorsunuz."
+  },
+  {
+    "from": "sour_cream",
+    "to": "yogurt",
+    "compat": "high",
+    "note": "Thinner and tangier; stir it in off the heat.",
+    "note_tr": "Daha ince ve daha keskin; ocaktan aldıktan sonra karıştırın."
+  },
+  {
+    "from": "yogurt",
+    "to": "sour_cream",
+    "compat": "medium",
+    "note": "Richer and less tangy.",
+    "note_tr": "Daha zengin ve daha az ekşi."
+  },
+  {
+    "from": "cream_cheese",
+    "to": "sour_cream",
+    "compat": "medium",
+    "note": "Looser and tangier; it won't hold its shape.",
+    "note_tr": "Daha gevşek ve daha ekşi; şeklini koruyamaz."
+  },
+  {
+    "from": "sour_cream",
+    "to": "cream_cheese",
+    "compat": "medium",
+    "note": "Thicker and milder; thin it with a splash of milk.",
+    "note_tr": "Daha yoğun ve daha hafif; biraz süt ekleyerek inceltin."
+  },
+  {
+    "from": "cornstarch",
+    "to": "flour",
+    "compat": "medium",
+    "note": "Thickens less cleanly; use about twice as much, and cook it through.",
+    "note_tr": "Daha temiz kalınlaşmaz; yaklaşık iki katını kullanın ve tamamen pişirin."
+  },
+  {
+    "from": "flour",
+    "to": "cornstarch",
+    "compat": "low",
+    "note": "Fine for thickening sauces, but no good for baking.",
+    "note_tr": "Sosları koyulaştırmak için iyi, ama hamur işlerinde iyi değil."
+  },
+  {
+    "from": "syrup",
+    "to": "honey",
+    "compat": "high",
+    "note": "Floral and a little thinner; use the same amount.",
+    "note_tr": "Çiçeksi ve biraz daha ince; aynı miktarı kullanın."
+  },
+  {
+    "from": "honey",
+    "to": "syrup",
+    "compat": "high",
+    "note": "Less floral, with a similar sweetness.",
+    "note_tr": "Daha az çiçeksi, benzer bir tatlılığa sahip."
+  },
+  {
+    "from": "cocoa",
+    "to": "chocolate",
+    "compat": "medium",
+    "note": "Richer and sweeter; use more and cut back the sugar.",
+    "note_tr": "Daha zengin ve tatlı; daha fazla kullanın ve şekeri azaltın."
+  },
+  {
+    "from": "chocolate",
+    "to": "cocoa",
+    "compat": "medium",
+    "note": "Less rich; add a little butter and sugar.",
+    "note_tr": "Daha az zengin; biraz tereyağı ve şeker ekleyin."
+  },
+  {
+    "from": "almonds",
+    "to": "walnuts",
+    "compat": "medium",
+    "note": "Softer and more bitter.",
+    "note_tr": "Daha yumuşak ve daha acı."
+  },
+  {
+    "from": "walnuts",
+    "to": "almonds",
+    "compat": "medium",
+    "note": "Milder and crunchier.",
+    "note_tr": "Daha hafif ve daha çıtır."
+  },
+  {
+    "from": "peanuts",
+    "to": "almonds",
+    "compat": "medium",
+    "note": "Less earthy and sweeter.",
+    "note_tr": "Daha az topraksı ve daha tatlı."
+  },
+  {
+    "from": "tahini",
+    "to": "peanut_butter",
+    "compat": "medium",
+    "note": "Sweeter, with a stronger nutty flavor.",
+    "note_tr": "Daha tatlı, daha güçlü bir fındık aromasıyla."
+  },
+  {
+    "from": "peanut_butter",
+    "to": "tahini",
+    "compat": "medium",
+    "note": "More bitter and less sweet; thin it with water.",
+    "note_tr": "Daha acı ve daha az tatlı; su ile inceltin."
+  },
+  {
+    "from": "quinoa",
+    "to": "rice",
+    "compat": "medium",
+    "note": "Softer and milder; cook it a little longer.",
+    "note_tr": "Daha yumuşak ve hafif; biraz daha uzun pişirin."
+  },
+  {
+    "from": "quinoa",
+    "to": "couscous",
+    "compat": "medium",
+    "note": "Nuttier and chewier.",
+    "note_tr": "Daha kuruyemişli ve daha çiğnenebilir."
+  },
+  {
+    "from": "aubergine",
+    "to": "courgette",
+    "compat": "medium",
+    "note": "Milder and wetter; salt it first to draw out moisture.",
+    "note_tr": "Daha hafif ve daha nemli; önce suyunu çıkarmak için tuzlayın."
+  },
+  {
+    "from": "courgette",
+    "to": "aubergine",
+    "compat": "medium",
+    "note": "Meatier and more absorbent; it needs longer cooking.",
+    "note_tr": "Daha etli ve daha emici; daha uzun süre pişmesi gerekir."
+  },
+  {
+    "from": "kale",
+    "to": "spinach",
+    "compat": "medium",
+    "note": "Tougher and more bitter; cook it longer.",
+    "note_tr": "Daha sert ve daha acı; daha uzun pişir."
+  },
+  {
+    "from": "spinach",
+    "to": "kale",
+    "compat": "medium",
+    "note": "Softer and milder; it wilts in a minute.",
+    "note_tr": "Daha yumuşak ve daha hafif; bir dakika içinde solar."
+  },
+  {
+    "from": "pumpkin",
+    "to": "sweet_potato",
+    "compat": "medium",
+    "note": "Sweeter and denser; it holds its shape better.",
+    "note_tr": "Daha tatlı ve daha yoğun; şeklini daha iyi korur."
+  },
+  {
+    "from": "sweet_potato",
+    "to": "pumpkin",
+    "compat": "medium",
+    "note": "Wetter and less sweet.",
+    "note_tr": "Daha nemli ve daha az tatlı."
+  },
+  {
+    "from": "lamb",
+    "to": "beef",
+    "compat": "medium",
+    "note": "Milder and leaner; cook it a little longer.",
+    "note_tr": "Daha hafif ve daha az yağlı; biraz daha uzun pişirin."
+  },
+  {
+    "from": "beef",
+    "to": "lamb",
+    "compat": "low",
+    "note": "Gamier and fattier; the dish takes on a distinct flavor.",
+    "note_tr": "Daha sert ve daha yağlı; yemek kendine özgü bir tat kazanır."
+  },
+  {
+    "from": "chorizo",
+    "to": "sausage",
+    "compat": "medium",
+    "note": "Less smoky and spicy; add a pinch of paprika.",
+    "note_tr": "Daha az dumanlı ve baharatlı; bir tutam toz biber ekleyin."
+  },
+  {
+    "from": "sausage",
+    "to": "chorizo",
+    "compat": "medium",
+    "note": "Smokier and spicier; it will color the whole dish.",
+    "note_tr": "Daha dumanlı ve baharatlı; tüm yemeği renklendirecek."
+  },
+  {
+    "from": "ham",
+    "to": "bacon",
+    "compat": "medium",
+    "note": "Smokier and saltier; cook it until crisp.",
+    "note_tr": "Daha dürüst ve tuzlu; gevrek olana kadar pişirin."
+  },
+  {
+    "from": "bacon",
+    "to": "ham",
+    "compat": "medium",
+    "note": "Milder and softer, without the crisp.",
+    "note_tr": "Daha hafif ve daha yumuşak, gevreklik olmadan."
+  },
+  {
+    "from": "kidney_beans",
+    "to": "black_beans",
+    "compat": "high",
+    "note": "Softer and earthier; the dish looks darker.",
+    "note_tr": "Daha yumuşak ve daha topraksı; yemek daha koyu görünüyor."
+  },
+  {
+    "from": "black_beans",
+    "to": "kidney_beans",
+    "compat": "high",
+    "note": "A little firmer, with a milder flavor.",
+    "note_tr": "Biraz daha sert, daha hafif bir tatla."
+  },
+  {
+    "from": "white_beans",
+    "to": "chickpeas",
+    "compat": "medium",
+    "note": "Creamier and softer.",
+    "note_tr": "Daha kremamsı ve daha yumuşak."
+  },
+  {
+    "from": "chickpeas",
+    "to": "white_beans",
+    "compat": "medium",
+    "note": "Softer and milder.",
+    "note_tr": "Daha yumuşak ve daha hafif."
+  },
+  {
+    "from": "fish_sauce",
+    "to": "soy_sauce",
+    "compat": "medium",
+    "note": "Less funky and less salty; add a squeeze of lime.",
+    "note_tr": "Daha az eğlenceli ve daha az tuzlu; biraz lime suyu ekleyin."
+  },
+  {
+    "from": "oyster_sauce",
+    "to": "soy_sauce",
+    "compat": "medium",
+    "note": "Thinner and saltier; add a pinch of sugar.",
+    "note_tr": "Daha ince ve tuzlu; bir tutam şeker ekleyin."
+  },
+  {
+    "from": "thyme",
+    "to": "oregano",
+    "compat": "medium",
+    "note": "More peppery and less earthy.",
+    "note_tr": "Daha biberli ve daha az topraksı."
+  },
+  {
+    "from": "oregano",
+    "to": "thyme",
+    "compat": "medium",
+    "note": "Gentler and more floral.",
+    "note_tr": "Daha nazik ve daha çiçeksi."
+  },
+  {
+    "from": "rosemary",
+    "to": "thyme",
+    "compat": "medium",
+    "note": "Less piney; use more.",
+    "note_tr": "Daha az çam aromalı; daha fazla kullanın."
+  },
+  {
+    "from": "sage",
+    "to": "thyme",
+    "compat": "medium",
+    "note": "Lighter; it lacks the musky depth.",
+    "note_tr": "Daha hafif; miskimsi derinliği eksik."
+  },
+  {
+    "from": "dill",
+    "to": "parsley",
+    "compat": "low",
+    "note": "Milder and without the anise note.",
+    "note_tr": "Daha hafif ve anason notası olmadan."
+  },
+  {
+    "from": "chives",
+    "to": "green_onion",
+    "compat": "high",
+    "note": "Slightly sharper; chop the green part only.",
+    "note_tr": "Biraz daha keskin; sadece yeşil kısmını doğrayın."
+  },
+  {
+    "from": "mint",
+    "to": "basil",
+    "compat": "low",
+    "note": "Cooler and sweeter; works best in fresh dishes.",
+    "note_tr": "Daha serinletici ve tatlı; taze yemeklerde en iyi şekilde çalışır."
+  },
+  {
+    "from": "wine",
+    "to": "vinegar",
+    "compat": "low",
+    "note": "Sharper and without depth; dilute with water and add a pinch of sugar.",
+    "note_tr": "Daha keskin ve derinliksiz; suyla seyreltin ve bir tutam şeker ekleyin."
+  },
+  {
+    "from": "wine",
+    "to": "stock",
+    "compat": "low",
+    "note": "Savory instead of acidic; add a squeeze of lemon.",
+    "note_tr": "Ekşi yerine lezzetli; üzerine biraz limon sıkın."
+  },
+  {
+    "from": "curry_paste",
+    "to": "curry_powder",
+    "compat": "low",
+    "note": "Drier and less aromatic; add garlic and a little oil.",
+    "note_tr": "Daha kuru ve daha az aromatik; sarımsak ve biraz yağ ekleyin."
+  }
+]
