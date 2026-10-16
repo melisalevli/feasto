@@ -1,8 +1,7 @@
 import react from '@vitejs/plugin-react'
 import { defineConfig, type Plugin } from 'vite'
+import { VitePWA } from 'vite-plugin-pwa'
 
-// Production-only: the dev server needs inline scripts for hot reload.
-// frame-ancestors can't be set via <meta>; see public/_headers.
 const CSP = [
   "default-src 'self'",
   "script-src 'self'",
@@ -22,4 +21,20 @@ const csp: Plugin = {
   ],
 }
 
-export default defineConfig({ plugins: [react(), csp] })
+export default defineConfig({
+  plugins: [
+    react(),
+    csp,
+    VitePWA({
+      registerType: 'autoUpdate',
+      manifest: {
+        name: 'Feasto',
+        short_name: 'Feasto',
+        display: 'standalone',
+        theme_color: '#ffffff',
+        background_color: '#ffffff',
+        icons: [{ src: 'feasto-512.png', sizes: '512x512', type: 'image/png' }],
+      },
+    }),
+  ],
+})
